@@ -181,6 +181,7 @@ public class MybatisAutoConfiguration {
   public static class AutoConfiguredMapperScannerRegistrar
       implements BeanFactoryAware, ImportBeanDefinitionRegistrar, ResourceLoaderAware {
 
+    
     private BeanFactory beanFactory;
 
     private ResourceLoader resourceLoader;
